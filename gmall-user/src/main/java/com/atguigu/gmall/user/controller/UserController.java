@@ -34,7 +34,7 @@ public class UserController {
     @ResponseBody
     public List<UmsMemberReceiveAddress> getReceiveAddressMemberId(String memberId){
         List<UmsMemberReceiveAddress> umsMemberReceiveAddressList = userService.getReceiveAddressMemberId(memberId);
-        System.out.println("233333333333333333333333");
+//        System.out.println("233333333333333333333333");
         return umsMemberReceiveAddressList;
     }
 }
