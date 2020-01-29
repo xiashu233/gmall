@@ -1,8 +1,9 @@
 package com.atguigu.gmall.user;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+// 导入通用 mapper的 mapperScan
+import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @MapperScan(basePackages = "com.atguigu.gmall.user.mapper")
