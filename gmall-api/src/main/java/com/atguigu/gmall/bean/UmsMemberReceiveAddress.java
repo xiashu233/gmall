@@ -1,9 +1,9 @@
-package com.atguigu.gmall.user.bean;
+package com.atguigu.gmall.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;
 
-public class UmsMemberReceiveAddress implements Serializable {
+public class UmsMemberReceiveAddress {
 
     @Id
     private String id;
