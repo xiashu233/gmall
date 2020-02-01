@@ -7,14 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gmall-common-util" />
         <module name="demo" />
-        <module name="gmall-web-util" />
+        <module name="gmall-manage-web" />
+        <module name="gmall-common-util" />
         <module name="gmall-manage-service" />
         <module name="gmall-user" />
         <module name="gmall-user-web" />
-        <module name="gmall-manage-web" />
         <module name="gmall-api" />
+        <module name="gmall-web-util" />
         <module name="gmall-service-util" />
         <module name="gmall-user-service" />
       </profile>
@@ -37,8 +37,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="gmall-common-util" options="" />
-      <module name="gmall-manage-service" options="-parameters" />
-      <module name="gmall-manage-web" options="-parameters" />
+      <module name="gmall-manage-service" options="" />
+      <module name="gmall-manage-web" options="" />
       <module name="gmall-service-util" options="" />
       <module name="gmall-user" options="" />
       <module name="gmall-user-service" options="" />
