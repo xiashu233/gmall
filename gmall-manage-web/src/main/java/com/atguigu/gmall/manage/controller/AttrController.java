@@ -2,7 +2,9 @@ package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.atguigu.gmall.bean.PmsBaseAttrInfo;
+import com.atguigu.gmall.bean.PmsBaseAttrValue;
 import com.atguigu.gmall.bean.PmsBaseCatalog3;
+import com.atguigu.gmall.bean.PmsProductInfo;
 import com.atguigu.gmall.service.AttrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -31,9 +33,24 @@ public class AttrController {
     @ResponseBody
     @RequestMapping("/saveAttrInfo")
     public String saveAttrInfo(@RequestBody PmsBaseAttrInfo pmsBaseAttrInfo){
-
-        return "successs";
+        String success = attrService.saveAttrInfo(pmsBaseAttrInfo);
+        return success;
     }
+
+    @ResponseBody
+    @RequestMapping("/getAttrValueList")
+    public List<PmsBaseAttrValue> getAttrValueList(String attrId){
+        List<PmsBaseAttrValue> pmsBaseAttrValues = attrService.getAttrValueList(attrId);
+        return pmsBaseAttrValues;
+    }
+
+    @ResponseBody
+    @RequestMapping("/spuList")
+    public List<PmsProductInfo> spuList(String catalog3Id){
+        List<PmsProductInfo> pmsProductInfos = attrService.spuList(catalog3Id);
+        return pmsProductInfos;
+    }
+
 
 
 
