@@ -9,7 +9,9 @@ import com.atguigu.gmall.manage.mapper.PmsBaseAttrInfoMapper;
 import com.atguigu.gmall.manage.mapper.PmsBaseAttrValueMapper;
 import com.atguigu.gmall.manage.mapper.PmsProductInfoMapper;
 import com.atguigu.gmall.service.AttrService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
@@ -34,26 +36,32 @@ public class AttrServiceImpl implements AttrService {
 
     @Override
     public String saveAttrInfo(PmsBaseAttrInfo pmsBaseAttrInfo) {
-
-
         try{
-            List<PmsBaseAttrValue> pmsBaseAttrValues = pmsBaseAttrInfo.getAttrValueList();
             String attrId = pmsBaseAttrInfo.getId();
+            List<PmsBaseAttrValue> pmsBaseAttrValues = pmsBaseAttrInfo.getAttrValueList();
+            if (StringUtils.isBlank(attrId)){
+                // id为空 保存
+                pmsBaseAttrInfoMapper.insertSelective(pmsBaseAttrInfo);
+                for (PmsBaseAttrValue pmsBaseAttrValue:pmsBaseAttrValues){
+                    pmsBaseAttrValue.setAttrId(attrId);
+                    pmsBaseAttrValueMapper.insertSelective(pmsBaseAttrValue);
+                }
+            }else{
+                // 修改属性名
+                Example example = new Example(PmsBaseAttrInfo.class);
+                example.createCriteria().andEqualTo("id",attrId);
+                pmsBaseAttrInfoMapper.updateByExampleSelective(pmsBaseAttrInfo,example);
 
-            PmsBaseAttrValue delPmsBaseAttrValue = new PmsBaseAttrValue();
-            delPmsBaseAttrValue.setAttrId(attrId);
-            List<PmsBaseAttrValue> delPmsBaseAttrValues = pmsBaseAttrValueMapper.select(delPmsBaseAttrValue);
+                // 按照属性 id  删除所有属性值
+                PmsBaseAttrValue delPmsBaseAttrValue = new PmsBaseAttrValue();
+                delPmsBaseAttrValue.setAttrId(attrId);
+                pmsBaseAttrValueMapper.delete(delPmsBaseAttrValue);
 
-            pmsBaseAttrInfoMapper.delete(pmsBaseAttrInfo);
-            for (PmsBaseAttrValue pmsBaseAttrValue:delPmsBaseAttrValues){
-                pmsBaseAttrValue.setAttrId(attrId);
-                pmsBaseAttrValueMapper.delete(pmsBaseAttrValue);
-            }
+                for (PmsBaseAttrValue pmsBaseAttrValue : pmsBaseAttrValues) {
+                    pmsBaseAttrValue.setAttrId(attrId);
+                    pmsBaseAttrValueMapper.insertSelective(pmsBaseAttrValue);
+                }
 
-            pmsBaseAttrInfoMapper.insertSelective(pmsBaseAttrInfo);
-            for (PmsBaseAttrValue pmsBaseAttrValue:pmsBaseAttrValues){
-                pmsBaseAttrValue.setAttrId(attrId);
-                pmsBaseAttrValueMapper.insertSelective(pmsBaseAttrValue);
             }
         }catch (Exception e){
 
@@ -71,11 +79,5 @@ public class AttrServiceImpl implements AttrService {
         return pmsBaseAttrValues;
     }
 
-    @Override
-    public List<PmsProductInfo> spuList(String catalog3Id) {
-        PmsProductInfo pmsProductInfo = new PmsProductInfo();
-        pmsProductInfo.setCatalog3Id(catalog3Id);
-        List<PmsProductInfo> pmsProductInfos = pmsProductInfoMapper.select(pmsProductInfo);
-        return pmsProductInfos;
-    }
+
 }

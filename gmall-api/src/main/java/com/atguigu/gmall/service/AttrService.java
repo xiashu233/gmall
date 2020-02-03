@@ -13,5 +13,5 @@ public interface AttrService {
 
     List<PmsBaseAttrValue> getAttrValueList(String attrId);
 
-    List<PmsProductInfo> spuList(String catalog3Id);
+
 }

@@ -44,12 +44,7 @@ public class AttrController {
         return pmsBaseAttrValues;
     }
 
-    @ResponseBody
-    @RequestMapping("/spuList")
-    public List<PmsProductInfo> spuList(String catalog3Id){
-        List<PmsProductInfo> pmsProductInfos = attrService.spuList(catalog3Id);
-        return pmsProductInfos;
-    }
+
 
 
 
