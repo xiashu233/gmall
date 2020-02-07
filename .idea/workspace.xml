@@ -1,77 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b987eae9-ff82-4c5b-b459-5bc9ddeb756d" name="Default Changelist" comment="   前后端 后端提供服务">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/HISTORY" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/common/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/common/IniFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/common/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/common/NameValuePair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/ClientGlobal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/DownloadCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/DownloadStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/ProtoCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/ProtoStructDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/ServerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StorageClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StorageClient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StorageServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StructBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StructGroupStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/StructStorageStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/TrackerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/TrackerGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/TrackerServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/UploadCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/UploadStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/pool/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/pool/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/pool/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/java/org/csource/fastdfs/pool/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/resources/fastdfs-client.properties.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/main/resources/fdfs_client.conf.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/common/IniFileReaderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/ClientGlobalTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/DownloadFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/FdfsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/TestAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/TestAppender1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/TestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/TestClient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/TestLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/java/org/csource/fastdfs/UploadLocalFileSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/resources/fastdfs-client.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastdfs-client-java/src/test/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/util/PmsUploadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/tracker.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b987eae9-ff82-4c5b-b459-5bc9ddeb756d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuSaleAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-manage-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/test/java/com/atguigu/gmall/manage/GmallManageWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/test/java/com/atguigu/gmall/manage/GmallManageWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/util/PmsUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/util/PmsUploadUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +128,7 @@
       <recent name="com.atguigu.gmall.user.bean" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallManageServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GmallManageWebApplication">
     <configuration name="GmallManageWebApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gmall-manage-web" />
       <extension name="coverage">
@@ -296,7 +240,8 @@
       <workItem from="1580995457298" duration="349000" />
       <workItem from="1580995825006" duration="168000" />
       <workItem from="1580996120113" duration="1607000" />
-      <workItem from="1581038692832" duration="12239000" />
+      <workItem from="1581038692832" duration="21024000" />
+      <workItem from="1581062903437" duration="8315000" />
     </task>
     <task id="LOCAL-00001" summary="commit test">
       <created>1580176075985</created>
@@ -403,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580620929520</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=" 🎈 前后端 后端提供服务">
+      <created>1581051875151</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581051875151</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +370,8 @@
     <MESSAGE value="  整合dubbo" />
     <MESSAGE value="   前后端分类 后端提供服务" />
     <MESSAGE value="   前后端 后端提供服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="   前后端 后端提供服务" />
+    <MESSAGE value="  前后端 后端提供服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="  前后端 后端提供服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Project_Structure" timestamp="1581043391792">
@@ -429,10 +382,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580187434173" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581050230124">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581073018175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581050230124" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581073018175" />
     <state x="765" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580457534151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -445,10 +398,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580546181753" />
-    <state x="311" y="111" key="CommitChangelistDialog2" timestamp="1580727008473">
+    <state x="311" y="111" key="CommitChangelistDialog2" timestamp="1581051873708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="311" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580727008473" />
+    <state x="311" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581051873708" />
     <state width="483" height="466" key="DebuggerActiveHint" timestamp="1580699017908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -461,54 +414,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581039805312" />
-    <state width="1877" height="573" key="GridCell.Tab.0.bottom" timestamp="1581051783270">
+    <state width="1877" height="461" key="GridCell.Tab.0.bottom" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783270" />
-    <state width="1877" height="573" key="GridCell.Tab.0.center" timestamp="1581051783270">
+    <state width="1877" height="461" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.0.center" timestamp="1581074447053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783270" />
-    <state width="1877" height="573" key="GridCell.Tab.0.left" timestamp="1581051783270">
+    <state width="1877" height="461" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447053" />
+    <state width="1877" height="461" key="GridCell.Tab.0.left" timestamp="1581074447053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783270" />
-    <state width="1877" height="573" key="GridCell.Tab.0.right" timestamp="1581051783270">
+    <state width="1877" height="461" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447053" />
+    <state width="1877" height="461" key="GridCell.Tab.0.right" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783270" />
-    <state width="1877" height="573" key="GridCell.Tab.1.bottom" timestamp="1581051783271">
+    <state width="1877" height="461" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.1.bottom" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783271" />
-    <state width="1877" height="573" key="GridCell.Tab.1.center" timestamp="1581051783270">
+    <state width="1877" height="461" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.1.center" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783270" />
-    <state width="1877" height="573" key="GridCell.Tab.1.left" timestamp="1581051783270">
+    <state width="1877" height="461" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.1.left" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783270" />
-    <state width="1877" height="573" key="GridCell.Tab.1.right" timestamp="1581051783271">
+    <state width="1877" height="461" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.1.right" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783271" />
-    <state width="1877" height="573" key="GridCell.Tab.2.bottom" timestamp="1581051783271">
+    <state width="1877" height="461" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.2.bottom" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783271" />
-    <state width="1877" height="573" key="GridCell.Tab.2.center" timestamp="1581051783271">
+    <state width="1877" height="461" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.2.center" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783271" />
-    <state width="1877" height="573" key="GridCell.Tab.2.left" timestamp="1581051783271">
+    <state width="1877" height="461" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.2.left" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783271" />
-    <state width="1877" height="573" key="GridCell.Tab.2.right" timestamp="1581051783271">
+    <state width="1877" height="461" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
+    <state width="1877" height="461" key="GridCell.Tab.2.right" timestamp="1581074447054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581051783271" />
+    <state width="1877" height="461" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581074447054" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1580549036917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -525,26 +478,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580295126002" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580727011198">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581051893319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580727011198" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581038718427">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581051893319" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581062903379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581038718427" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581051785740">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581062903379" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581074454059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581051785740" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581074454059" />
     <state x="334" y="221" key="new project wizard" timestamp="1580538988413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580538988413" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1580457083833">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1581057308879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580457083833" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581057308879" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581048765240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -16,7 +16,7 @@ public class PmsUploadUtil {
     public String uploadImage(MultipartFile multipartFile){
     // 获得配置文件路径
         String tracker = PmsUploadUtil.class.getResource("/tracker.conf").getPath();
-        String url = "192.168.87.3";
+        String url = "http://192.168.87.3";
 
         try{
             ClientGlobal.init(tracker);

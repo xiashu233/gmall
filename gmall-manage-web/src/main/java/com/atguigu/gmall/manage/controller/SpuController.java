@@ -45,6 +45,7 @@ public class SpuController {
     @ResponseBody
     @RequestMapping("/saveSpuInfo")
     public String saveSpuInfo(@RequestBody PmsProductInfo pmsProductInfo){
+
         String success = spuService.saveSpuInfo(pmsProductInfo);
         return success;
     }
@@ -71,6 +72,8 @@ public class SpuController {
         List<PmsProductSaleAttr> pmsProductSaleAttrs = spuService.spuSaleAttrList(spuId);
         return pmsProductSaleAttrs;
     }
+
+
 
 
 

@@ -2,6 +2,7 @@ package com.atguigu.gmall.bean;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.io.Serializable;
 
 /**
@@ -21,6 +22,8 @@ public class PmsSkuImage implements Serializable {
     String imgUrl;
     @Column
     String productImgId;
+    @Transient
+    String spuImgId;
     @Column
     String isDefault;
 
@@ -70,5 +73,13 @@ public class PmsSkuImage implements Serializable {
 
     public void setIsDefault(String isDefault) {
         this.isDefault = isDefault;
+    }
+
+    public String getSpuImgId() {
+        return spuImgId;
+    }
+
+    public void setSpuImgId(String spuImgId) {
+        this.spuImgId = spuImgId;
     }
 }
